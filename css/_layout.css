@@ -18,8 +18,9 @@ a {
 
 /* HEADER */
 .header {
-    background-color: #290fd1;
-    min-height: 50vh;
+    background: url("../img/header.jpg") center bottom no-repeat;
+    background-size: cover;
+    min-height: 60vh;
     position: relative;
   }
   
