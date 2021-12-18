@@ -204,14 +204,6 @@ i {
       top: 70%;
     }
   
-    /* FOOTER */
-    footer {
-      background: #290fd1;
-      color: white;
-      padding: 2.5rem;
-      text-align: center;
-  }
-  
   @media only screen and (max-width: 1280px) {
         .blog_container, .gallery_container {
           margin: 1rem auto 2rem;
