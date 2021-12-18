@@ -43,7 +43,15 @@
 }
 
 .nav-link:hover{
-    color: #482ff7;
+    text-decoration: underline #482ff7;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.2em;
+}
+
+.nav-link.active {
+    background: skyblue;
+    color: white;
+    padding: 1.6rem 1.4rem;
 }
 
 .nav-logo {
@@ -72,6 +80,12 @@
     }
     .nav-link {
         color: white;
+    }
+    .nav-link.active {
+        background: none;
+        text-decoration: underline;
+        text-decoration-thickness: 0.05em;
+        text-underline-offset: 0.25em;
     }
     .hamburger-menu {
         display: block;
