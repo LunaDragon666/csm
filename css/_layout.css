@@ -32,11 +32,19 @@ a {
     transform: translateX(-50%);
   }
 
+  .blog_container, .gallery_container {
+    margin: 1rem auto 0;
+    max-width: 1280px;
+    padding: 1.25rem 4.75rem 0;
+  }
+
+  .blog-page, .gallery-page {
+    margin: 1rem 0 3rem;
+  }
+
 /* BLOG CONTENT | HOMEPAGE */
 .blog_container {
-  max-width: 1280px;
-  margin: 1rem auto 2rem;
-  padding: 4.75rem;
+  margin-top: 2.5rem;
 }
 
 .blog-page {
@@ -45,7 +53,6 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 0;
   }
 
   .card-blog {
@@ -102,6 +109,87 @@ a {
     cursor: pointer;
   }
 
+  /* GALLERY SECTION | HOMEPAGE */
+  .gallery_container {
+    margin-bottom: 7.5rem;
+  }
+
+  .gallery-page {
+      display: grid;
+      grid-gap: 1.4rem;
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery-content {
+    position: relative;
+  }
+
+  /* Galery image(s) */
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gallery-image,
+  .gallery-content .gallery-overlay {
+    border-radius: 0.25rem;
+  }
+
+  /* How gallery content's displayed on hover */
+  .gallery-content .gallery-overlay,
+  .gallery-details {
+    position: absolute;
+  }
+
+  .gallery-content .gallery-overlay {
+    background: rgba(17, 8, 99, 0.7);
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    padding: 0;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  .gallery-content:hover .gallery-overlay {
+    opacity: 1;
+  }
+
+  .gallery-details {
+    color: white;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    padding: 0;
+    width: 75%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+    /* Where in gallery content's displayed on hover */
+    .gallery-content, .gallery-details {
+      text-align: center;
+    }
+
+  .gallery-content:hover .gallery-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .fadein {
+    top: 70%;
+  }
+
+  /* FOOTER */
   footer {
     background: #290fd1;
     color: white;
@@ -114,18 +202,31 @@ a {
     .header-content {
         top: 125px;
       }
+      .blog-page, .gallery-page {
+        padding: 1rem 0 0;
+      }
       /* BLOG CONTENT */
-      .blog_container {
-        margin: 0rem auto 2rem;
+      .blog_container, .gallery_container {
+        margin: 1rem auto 2rem;
         max-width: 910px;
       }
-      .card-blog {
-        padding-top: 1.4rem;
+      .blog-page {
+        margin-bottom: -1rem;
       }
+      .card-blog {
+        padding-bottom: 1.4rem;
+      }
+      /* GALLERY CONTENT */
+      .gallery-page {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 6rem;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-  .blog_container {
+  .blog_container, .gallery_container {
+    margin-bottom: -3.5rem;
+    margin-top: -0.25rem;
     padding: 2.75rem;
   }
   .blog-page {
@@ -136,7 +237,11 @@ a {
   }
   .card-blog {
     max-width: 100%;
-    padding-bottom: 0.75rem;
+    padding-bottom: 1.75rem;
     padding-right: 0;
   }
+        /* GALLERY CONTENT */
+        .gallery-page {
+          grid-template-columns: auto;
+      }
 }
