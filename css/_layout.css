@@ -70,15 +70,30 @@ a {
 
   /* FOOTER */
   footer {
+    padding: 2.5rem;
+  }
+
+  footer, .copyright {
     background: #290fd1;
     color: white;
-    padding: 2.5rem;
     text-align: center;
+}
+
+.copyright {
+  padding: 1.75rem;
 }
 
 footer h5 {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+}
+
+.footera {
+  color: white;
+}
+
+.footera:hover {
+  text-decoration: underline;
 }
 
 /* Back-to-top */
@@ -126,6 +141,18 @@ td, th {
 
 .bold {
     font-weight: bold;
+}
+
+.footer-link {
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.adress-box {
+  margin-bottom: 1.75rem;
 }
 
 @media only screen and (max-width: 1280px) {
