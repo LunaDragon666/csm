@@ -51,16 +51,14 @@
 .nav-link.active {
     background: skyblue;
     color: white;
-    padding: 1.6rem 1.4rem;
+    padding: 2.1rem 1.4rem;
 }
 
-.nav-logo {
-    font-size: 2rem;
-    font-weight: 500;
-    color: #482ff7;
+.logoimg {
+    width: 75%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1280px) {
     .nav-menu {
         position: absolute;
         right: -100%;
