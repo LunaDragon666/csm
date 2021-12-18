@@ -131,9 +131,12 @@ a {
   .blog-page {
     margin: 1rem 0;
   }
+  .blog-image {
+    height: 300px;
+  }
   .card-blog {
     max-width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: 0.75rem;
     padding-right: 0;
   }
 }
