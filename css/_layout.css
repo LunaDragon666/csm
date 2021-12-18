@@ -76,6 +76,11 @@ a {
     text-align: center;
 }
 
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
 /* Back-to-top */
 .top {
   text-align: center;
@@ -93,6 +98,12 @@ a {
 }
 
 /* Footer column */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .footer-column {
   font-size: 0.91em;
   float: left;
@@ -101,6 +112,20 @@ a {
   min-height: 30vh; /* Should be removed. Only for demonstration */
   letter-spacing: 0.1em;
   line-height: 2em;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -116,7 +141,6 @@ a {
       }
         /* FOOTER */
     .footer-column {
-      text-align: left;
       width: 50%;
     }
 }
@@ -133,11 +157,16 @@ a {
     font-size: 1rem;
   }
   /* FOOTER */
+  .footer-column, td, th {
+    text-align: center;
+  }
     .footer-column {
     font-size: 1.25em;
     line-height: 2.5em;
-    padding: 1.5em 1.5em 1em;
-    text-align: center;
+    padding: 1.5rem 0 1rem;
     width: 100%;
+  }
+  table {
+    font-size: 0.9rem;
   }
 }
