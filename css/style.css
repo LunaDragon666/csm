@@ -1,7 +1,141 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR */
+.menu {
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    z-index: 999;
+}
+
+/* Hamburger menu */ 
+.hamburger-menu {
+    display: none;
+}
+
+.hambar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000080;
+}
+
+/* Menu links */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #482ff7;
+}
+
+/* HEADER */
+.header {
+    background-color: #290fd1;
+    min-height: 50vh;
+    position: relative;
+  }
+  
+  .header-content {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+/* */
+@media only screen and (max-width: 1280px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 4.4rem;
+        flex-direction: column;
+        background-color: #482ff7;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+    
+    /* */
+    .hamburger-menu.active .hambar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .hambar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .hambar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* HEADER */
+    .header-content {
+        top: 150px;
+      }
 }
