@@ -53,12 +53,13 @@
         </main>
         <!-- CONTACT FORM -->
         <section class="contact_container">
+            <div id="message"></div>
             <span class="required"><b>*</b> Required fields</span>
-            <form class="form">
-                <!-- -->
-                <input type="text" placeholder="Full Name* id="name">
-                <!-- -->
-                <input type="email" placeholder="Email Address* id="email">
+            <form class="form" id="form">
+                <!-- Name input -->
+                <input type="text" placeholder="Full Name*" id="name">
+                <!-- Email input -->
+                <input type="email" placeholder="Email Address*" id="email">
                 <!-- -->
                 <input type="phone" placeholder="Phone number (optimal)">
                 <!-- -->
@@ -68,9 +69,10 @@
                     <option value="other-requests">Other requests</option>
                     <option value="questions">Questions</option>
                 </select>
-                <!-- -->
-                <textarea type="message" class="fullwidth" placeholder="Message*" rows="10" id="message"></textarea>
-                <button id="submit" class="fullwidth">Submit</button>
+                <!-- Message input -->
+                <textarea type="message" class="fullwidth" placeholder="Message*" rows="10" id="textarea"></textarea>
+                <!-- Submit form button -->
+                <button disabled>Submit</button>
         
             </form>
         </section>
@@ -157,5 +159,6 @@
           <!-- Copyright mark -->
           <p class="copyright">2021 © CSM</p>
 		<script src="js/script.js"></script>
+        <script src="js/form.js"></script>
 	</body>
 </html>
