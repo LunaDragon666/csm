@@ -52,7 +52,7 @@
 /* SUB (2ND) HEADER | CONTACT-, -ABOUT AND ... PAGE */
 .subheader {
   background: #1596ff;
-  min-height: 35vh;
+  min-height: 40vh;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -73,6 +73,9 @@
     line-height: 2.5rem;
       top: 100px;
     }
+    .subheader {
+    margin-bottom: 2rem;
+  }
   .heading {
     font-size: 1.47rem;
   }
