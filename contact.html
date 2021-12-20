@@ -53,17 +53,23 @@
         </main>
         <!-- CONTACT FORM -->
         <section class="contact_container">
+            <span class="required"><b>*</b> Required fields</span>
             <form class="form">
-                <input type="text" placeholder="Full Name*">
-                <input type="email" placeholder="Email Address*">
+                <!-- -->
+                <input type="text" placeholder="Full Name* id="name">
+                <!-- -->
+                <input type="email" placeholder="Email Address* id="email">
+                <!-- -->
                 <input type="phone" placeholder="Phone number (optimal)">
-                <select name="" id="">
+                <!-- -->
+                <select type="select" name="">
                     <option value="book-guide-tour">Book guide tour</option>
                     <option value="order-tickets">Order event tickets</option>
                     <option value="other-requests">Other requests</option>
                     <option value="questions">Questions</option>
                 </select>
-                <textarea class="fullwidth" placeholder="Message*" rows="10"></textarea>
+                <!-- -->
+                <textarea type="message" class="fullwidth" placeholder="Message*" rows="10" id="message"></textarea>
                 <button id="submit" class="fullwidth">Submit</button>
         
             </form>
