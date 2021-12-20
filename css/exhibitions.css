@@ -38,7 +38,7 @@ figure {
   }
 
   hr {
-      border: 2px solid black;
+      border: 2px solid #1596ff;
       border-radius: 1rem;
       grid-area: hr;
       margin-bottom: 1rem;
@@ -148,7 +148,7 @@ figure {
     }
 
     hr {
-        border: 1px solid black;
+        border: 1px solid #1596ff;
         margin-bottom: 0;
         margin-left: 1rem;
     }
