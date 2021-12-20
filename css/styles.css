@@ -2,5 +2,8 @@
 @import "imports/nav.css";
 @import "imports/footer.css";
 
+/* Header style(s) for all pages */
 @import "_headers.css";
-@import "_main.css"; 
+
+/* index.html */
+@import "index.css"; 
