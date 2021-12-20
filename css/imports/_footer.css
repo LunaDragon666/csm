@@ -1,0 +1,130 @@
+/* FOOTER */
+footer {
+    padding: 2.5rem;
+  }
+
+  footer, .copyright {
+    background: #290fd1;
+    color: white;
+    text-align: center;
+}
+
+.copyright {
+  padding: 1.75rem;
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Back-to-top */
+.top {
+  text-align: center;
+  padding: 0.5rem 0 1.5rem;
+}
+
+.topmenu i {
+  color: white;
+  font-size: 2.5rem;
+  transition: all 0.5s;
+}
+
+.topmenu i:hover {
+  transform: translateY(-1rem);
+}
+
+/* Footer column */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-column {
+  font-size: 0.91em;
+  float: left;
+  width: 25%;
+  padding: 2.5em;
+  min-height: 30vh; /* Should be removed. Only for demonstration */
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  text-align: left;
+}
+
+/* Opening hours */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Contact information */
+.adress-box {
+    margin-bottom: 1.75rem;
+  }
+
+/* Navigation | Menu*/
+.footer-link {
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footera {
+    color: white;
+  }
+  
+  .footera#active {
+    text-decoration: underline;
+  }
+  
+  .footera:hover {
+    text-decoration: underline;
+  }
+
+  /* Social media & subscribe field */
+
+.medialinks {
+  font-size: 1.5rem;  
+}
+
+.medialinks i {
+  cursor: pointer;
+  padding-right: 0.25rem;
+  transition: 0.25s;
+}
+
+.medialinks i:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 1280px) {
+    .footer-column {
+      width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-column, td, th {
+      text-align: center;
+    }
+      .footer-column {
+      font-size: 1.25em;
+      line-height: 2.5em;
+      padding: 1.5rem 0 1rem;
+      width: 100%;
+    }
+    table {
+      font-size: 0.9rem;
+    }
+  }
