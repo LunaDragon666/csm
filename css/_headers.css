@@ -1,0 +1,82 @@
+.header, .subheader {
+  color: white;
+  line-height: 3.5rem;
+  position: relative;
+}
+
+/* MAIN HEADER */
+.header {
+    background: url("../img/header.jpg") center bottom no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+  }
+  
+  .header-content, .subheader-content {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .subheading {
+    font-size: 1.75rem;
+  }
+
+  .cta {
+    background: blue;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem; 
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 0;
+    transition: ease 0.4s;
+    }
+
+    .cta:hover {
+      background: black;
+      top: -10px;
+    }
+
+.button-wrap {
+    margin-top: 2.5rem;
+}
+
+/* SUB (2ND) HEADER | CONTACT-, -ABOUT AND ... PAGE */
+.subheader {
+  background: #1596ff;
+  min-height: 35vh;
+}
+
+@media only screen and (max-width: 1280px) {
+    /* HEADER */
+    .header-content {
+      line-height: 3.25rem;
+      }
+      .blog-page, .gallery-page {
+        padding: 1rem 0 0;
+      }
+      .button-wrap {
+        margin-top: 1.5rem;
+      }
+}
+
+@media only screen and (max-width: 900px) {
+  .header-content {
+    line-height: 2.5rem;
+      top: 100px;
+    }
+  .heading {
+    font-size: 1.47rem;
+  }
+  .subheading {
+    font-size: 1rem;
+  }
+}
