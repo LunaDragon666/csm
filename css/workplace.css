@@ -1,0 +1,11 @@
+@import "imports/variables.css";
+@import "imports/nav.css";
+@import "imports/footer.css";
+
+@import "_headers.css";
+
+.workplace_container {
+    margin: 0 auto 0;
+    max-width: 1024px;
+    padding: 1.5rem 0 9rem;
+}
