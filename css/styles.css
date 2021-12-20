@@ -1,0 +1,5 @@
+@import "imports/_nav.css";
+@import "imports/_footer.css";
+
+@import "_gallery.css"; 
+@import "_layout.css";
