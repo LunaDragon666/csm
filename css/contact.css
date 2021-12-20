@@ -21,6 +21,7 @@ body {
     padding: 0rem 0rem;
 }
 
+/* CONTACTFORM */
 .form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -32,6 +33,7 @@ body {
     grid-column: span 2;
 }
 
+/* Input display(s) */
 input::placeholder, textarea::placeholder{
     color: #000;
   }
