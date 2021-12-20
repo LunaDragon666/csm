@@ -23,7 +23,7 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #000080;
+    background-color: #001cd4;
 }
 
 /* Menu links */
@@ -65,7 +65,7 @@
         right: -100%;
         top: 5.5rem;
         flex-direction: column;
-        background-color: #482ff7;
+        background-color: #001cd4;
         width: 100%;
         text-align: center;
         transition: 0.3s;
