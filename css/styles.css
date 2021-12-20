@@ -1,5 +1,6 @@
-@import "imports/_nav.css";
-@import "imports/_footer.css";
+@import "imports/variables.css";
+@import "imports/nav.css";
+@import "imports/footer.css";
 
-@import "_gallery.css"; 
-@import "_layout.css";
+@import "_headers.css";
+@import "_main.css"; 
