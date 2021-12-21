@@ -17,7 +17,7 @@ body {
 }
 
 /* WORKPLACE CONTENT */
-.card {
+.content-cards {
     justify-content: space-evenly;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -26,7 +26,7 @@ body {
     gap: 0 20px;
   }
   
-  .card .card-item {
+  .content-cards .work-content {
     background-color: #fff;
     cursor: pointer;
     width: 400px;
@@ -37,7 +37,7 @@ body {
   }
 
   /* Workplace image content */
-  .card-item img {
+  .work-content img {
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -48,13 +48,14 @@ body {
     transition: 0.4s ease-in;
   }
 
-  .card-item:hover img {
+  .work-content:hover img {
     border-radius: 1rem 1rem 0 0;
     width: 100%;
     height: 115px;
     filter: brightness(100%);
   }
 
+  /* Line decoration inside text content */
   hr {
     border: 1px solid #1596ff;
     border-radius: 1rem 0 0 1rem;
@@ -63,7 +64,7 @@ body {
 }
 
   /* Workplace text content */
-  .card-content {
+  .info-content {
     position: absolute;
     bottom: 20px;
     left: 25px;
@@ -71,33 +72,29 @@ body {
     transition: 0.5s ease-in-out;
   }
 
-  .card-content .info {
+  .info-content .info-text {
     display: none;
   }
 
-  .info p {
+  .info-text p {
     padding-right: 0.75rem;
     padding-top: 0.75rem;
 }
   
   /* Content hover-effect(s) */
-  .card-item:hover .card-content {
+  .work-content:hover .info-content {
     color: #000;
     height: 600px;
     top: 125px;
     left: 15px;
   }
 
-  .card-item:hover p {
-    color: #313131;
-  }
-
-  .card-item:hover .info {
+  .work-content:hover .info-text {
     display: block;
   }
 
   @media (max-width: 1280px) {
-    .card {
+    .content-cards {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
       }
@@ -107,17 +104,17 @@ body {
     .workplace_container {
         padding: 0 0 4rem;
     }
-    .card {
+    .content-cards {
         gap: 25px;
       }
-      .card .card-item {
+      .content-cards .work-content {
         width: 275px;
         height: 500px;
       }
   }
 
   @media (max-width: 600px) {
-    .card {
+    .content-cards {
         grid-template-columns: 1fr;
       }
   }
