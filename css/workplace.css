@@ -4,9 +4,120 @@
 
 @import "_headers.css";
 
-.workplace_container {
-    margin: 0 auto 0;
-    max-width: 1024px;
-    padding: 1.5rem 0 9rem;
+body {
+    background: white;
 }
 
+.workplace_container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0;
+    max-width: 1280px;
+    padding: 6rem 0 6rem;
+}
+
+/* WORKPLACE CONTENT */
+.card {
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    position: relative;
+    display: grid;
+    gap: 0 20px;
+  }
+  
+  .card .card-item {
+    background-color: #fff;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: relative;
+  }
+
+  /* Workplace image content */
+  .card-item img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    filter: brightness(50%);
+    transition: 0.4s ease-in;
+  }
+
+  .card-item:hover img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    height: 115px;
+    filter: brightness(100%);
+  }
+
+  hr {
+    border: 1px solid #1596ff;
+    border-radius: 1rem 0 0 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.25rem;
+}
+
+  /* Workplace text content */
+  .card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+  }
+
+  .card-content .info {
+    display: none;
+  }
+
+  .info p {
+    padding-right: 0.75rem;
+    padding-top: 0.75rem;
+}
+  
+  /* Content hover-effect(s) */
+  .card-item:hover .card-content {
+    color: #000;
+    height: 600px;
+    top: 125px;
+    left: 15px;
+  }
+
+  .card-item:hover p {
+    color: #313131;
+  }
+
+  .card-item:hover .info {
+    display: block;
+  }
+
+  @media (max-width: 1280px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+  }
+
+  @media (max-width: 900px) {
+    .workplace_container {
+        padding: 0 0 4rem;
+    }
+    .card {
+        gap: 25px;
+      }
+      .card .card-item {
+        width: 275px;
+        height: 500px;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .card {
+        grid-template-columns: 1fr;
+      }
+  }
