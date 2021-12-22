@@ -5,151 +5,151 @@
 @import "_headers.css";
 
 .exhibition_container {
-        margin: 5rem auto 0;
-        max-width: 1024px;
-        padding: 1.5rem 0 9rem;
+  margin: 5rem auto 0;
+  max-width: 1024px;
+  padding: 1.5rem 0 9rem;
 }
 
 /* Exhibition gallery section */
-figure {
-    margin: 0;
+.exhibition-page {
+  display: grid;
+  grid-template-columns: 50% min-content 1fr max-content;
+  grid-gap: 0.75rem;
+  grid-template-areas:
+    "photo author author author"
+    "photo title title title"
+    "photo . hr hr"
+    "photo . summary summary"
+    "photo . description description"
+    "photo . . .";
+  background: #fff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 425px;
+  padding-right: 0.5rem;
+  margin: 1.5rem 0 1.5rem;
+}
+
+hr {
+  border: 2px solid #1596ff;
+  border-radius: 1rem;
+  grid-area: hr;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.description {
+  grid-area: description;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 3.25rem;
+}
+
+.exhibition-photo {
+  grid-area: photo;
+} 
+
+.subtitle {
+  grid-area: title; 
+  padding-left: 0.6rem;
+}
+
+.summary {
+  font-size: 1.05rem;
+  grid-area: summary;
+}
+
+.title {
+  font-size: 2rem;
+  grid-area: author;
+  margin: 0;
+  padding-left: 0.6rem;
+  padding-top: 0.75rem;
+}
+
+.title, .subtitle, .summary, .description {
+  margin-right: 1rem;
+}
+
+/* Exhibition images */
+.exhibition-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.85em;
+  overflow: hidden;
+}
+    
+.exhibition-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.5s all ease-in-out;
+}
+    
+.exhibition-image:hover img {
+  transform: scale(1.5);
+}
+  
+@media (max-width: 1280px) {
+  .exhibition_container {
+    margin: 5rem auto 0;
+    max-width: 768px;
+  }
+  .exhibition-page {
+    height: auto;
+  }
+  .summary {
+    padding-bottom: 1rem;
+  }
+  .description {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .exhibition_container {
+        margin: -1rem auto 0;
+        padding: 3rem 2rem;
+  }
+  .exhibition-page {
+    grid-template-columns: min-content 1fr 1fr;
+    grid-template-areas:
+      "author author author"
+      "hr hr hr"
+      "title title title"
+      "photo photo photo"
+      "summary summary summary"
+      "description description description";
+    padding-right: 0;
   }
   
-  .exhibition-page {
-    display: grid;
-    grid-template-columns: 50% min-content 1fr max-content;
-    grid-gap: 0.75rem;
-    grid-template-areas:
-      "photo author author author"
-      "photo title title title"
-      "photo . hr hr"
-      "photo . summary summary"
-      "photo . description description"
-      "photo . . .";
-    background: #fff;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    padding-right: 0.75rem;
-    margin-bottom: 0.75rem;
-    border-radius: 3px;
-    overflow: hidden;
-    height: 425px;
-    padding-right: 0.5rem;
-    margin: 1.5rem 0 1.5rem;
+  .title, .subtitle, .summary, .description {
+    padding: 0rem 0.75rem 0rem;
   }
 
-  hr {
-      border: 2px solid #1596ff;
-      border-radius: 1rem;
-      grid-area: hr;
-      margin-bottom: 1rem;
+  .title {
+    padding-top: 1rem;
   }
 
   .subtitle {
-    grid-area: title; 
-    padding-left: 0.6rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.25rem;
   }
-
   .summary {
-      font-size: 1.05rem;
-      grid-area: summary;
+    padding-bottom: 0.75rem;
   }
-  
-  .exhibition-photo {
-    grid-area: photo;
-  } 
 
-    /* Blog images */
-    .exhibition-image {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 0.85em;
-        overflow: hidden;
-      }
-    
-      .exhibition-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-        transition: 0.5s all ease-in-out;
-      }
-    
-      .exhibition-image:hover img {
-        transform: scale(1.5);
-    }
-  
-  .title {
-    font-size: 2rem;
-    grid-area: author;
-    margin: 0;
-    padding-left: 0.6rem;
-    padding-top: 0.75rem;
-  }
-  
   .description {
-    grid-area: description;
-    line-height: 1.5;
-    margin: 0;
-    padding-bottom: 3.25rem;
+    padding-bottom: 3rem;
   }
-  
-  /* Re-configure card layout for smaller screens */
-  @media (max-width: 1280px) {
-    .exhibition_container {
-        margin: 5rem auto 0;
-        max-width: 768px;
-    }
-    .exhibition-page {
-        height: auto;
-    }
-    .summary {
-        padding-bottom: 1rem;
-    }
-    .description {
-        padding-bottom: 2rem;
-    }
+
+  hr {
+    border: 1px solid #1596ff;
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
 }
-
-  @media (max-width: 900px) {
-    .exhibition_container {
-        margin: -1rem auto 0;
-        padding: 3rem 2rem;
-    }
-    .exhibition-page {
-      grid-template-columns: min-content 1fr 1fr;
-      grid-template-areas:
-        "author author author"
-        "hr hr hr"
-        "title title title"
-        "photo photo photo"
-        "summary summary summary"
-        "description description description";
-        padding-right: 0;
-    }
-  
-  .title, .subtitle, .summary, .description {
-      padding: 0rem 0.75rem 0rem;
-    }
-
-    .title {
-        padding-top: 1rem;
-    }
-
-    .subtitle {
-        padding-bottom: 0.5rem;
-        padding-top: 0.25rem;
-    }
-    .summary {
-        padding-bottom: 0.75rem;
-    }
-
-    .description {
-        padding-bottom: 3rem;
-    }
-
-    hr {
-        border: 1px solid #1596ff;
-        margin-bottom: 0;
-        margin-left: 1rem;
-    }
-  }
