@@ -30,7 +30,7 @@
   overflow: hidden;
   height: 425px;
   padding-right: 0.5rem;
-  margin: 1.5rem 0 1.5rem;
+  margin: 1.5rem 0 2.5rem;
 }
 
 hr {
@@ -112,7 +112,7 @@ hr {
 
 @media (max-width: 900px) {
   .exhibition_container {
-        margin: -1rem auto 0;
+        margin: -2rem auto 0;
         padding: 3rem 2rem;
   }
   .exhibition-page {
@@ -124,6 +124,7 @@ hr {
       "photo photo photo"
       "summary summary summary"
       "description description description";
+    margin-bottom: 2.5rem;
     padding-right: 0;
   }
   
