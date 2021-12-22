@@ -1,14 +1,17 @@
-.header, .subheader, .content-header {
+.header, .subheader, .content-header, .alt-header {
   color: white;
   line-height: 3.5rem;
   position: relative;
+}
+
+.alt-header, .content-header, .header, .subheader {
+  min-height: 60vh;
 }
 
 /* MAIN HEADER */
 .header {
     background: url("../img/headers/header.jpg") center bottom no-repeat;
     background-size: cover;
-    min-height: 60vh;
   }
   
   .header-content, .subheader-content {
@@ -31,6 +34,7 @@
   .cta {
     background: #001cd4;
     border-radius: 0.25rem;
+    color: white;
     cursor: pointer;
     letter-spacing: 0.1rem; 
     padding: 1rem 3rem;
@@ -52,13 +56,17 @@
 /* SUB (2ND) HEADER | CONTACT-, -ABOUT AND EXHIBITION PAGE */
 .subheader {
   background: #1596ff;
-  min-height: 40vh;
 }
 
 .content-header {
   background: url("../img/headers/subheader.jpg") center bottom no-repeat;
   background-size: cover;
-  min-height: 45vh;
+}
+
+/* ALTERNATIVE HEADER | FROM VISIT PAGE */
+.alt-header {
+  background: url("../img/headers/altheader.jpg") center bottom no-repeat;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 1280px) {
