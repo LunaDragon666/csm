@@ -24,4 +24,9 @@ a {
     text-decoration: none;
 }
 
+/* From exhibitions.css and about.css */
+figure {
+  margin: 0;
+}
+
 /* root: */
