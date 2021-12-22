@@ -13,7 +13,8 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
+  color: #2e3d52;
+  min-height: 100vh;
 }
 
 li {
