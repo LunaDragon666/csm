@@ -1,0 +1,132 @@
+@import "../imports/variables.css";
+@import "../imports/nav.css";
+@import "../imports/footer.css";
+
+@import "../_headers.css";
+
+body {
+  background: white;
+}
+
+.workplace_container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 0;
+  max-width: 1280px;
+  padding: 6rem 0 6rem;
+}
+
+/* WORKPLACE CONTENT */
+.content-cards {
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  position: relative;
+  display: grid;
+  gap: 0 20px;
+}
+  
+.content-cards .work-content {
+  background-color: #fff;
+  cursor: pointer;
+  width: 400px;
+  height: 425px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  position: relative;
+}
+
+/* Workplace image content */
+.work-content img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in;
+  border-radius: 10px;
+  filter: brightness(50%);
+  transition: 0.4s ease-in;
+}
+
+.work-content:hover img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 115px;
+  filter: brightness(100%);
+}
+
+/* Line decoration inside text content */
+hr {
+  border: 1px solid #1596ff;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Workplace text content */
+.info-content {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.info-content .info-text {
+  display: none;
+}
+
+.info-text p, .info-text b {
+  letter-spacing: 0.025rem;
+}
+
+.info-text b {
+  font-size: 0.95rem;
+  line-height: 1rem;
+}
+
+.info-text p {
+  font-size: 0.85rem;
+  line-height: 1.25rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+}
+  
+/* Content hover-effect(s) */
+  .work-content:hover .info-content {
+  color: #000;
+  height: 600px;
+  top: 125px;
+  left: 15px;
+}
+
+.work-content:hover .info-text {
+  display: block;
+  margin-right: 1rem;
+}
+
+@media (max-width: 1280px) {
+  .content-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .workplace_container {
+    padding: 0 0 4rem;
+  }
+  .content-cards {
+    gap: 25px;
+  }
+  .content-cards .work-content {
+    width: 275px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-cards {
+    grid-template-columns: 1fr;
+  }
+}
