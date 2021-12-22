@@ -4,10 +4,6 @@
 
 @import "../_headers.css";
 
-body {
-  background: white;
-}
-
 .workplace_container {
   display: flex;
   justify-content: center;
@@ -94,7 +90,7 @@ hr {
   
 /* Content hover-effect(s) */
   .work-content:hover .info-content {
-  color: #000;
+  color: #2e3d52;
   height: 600px;
   top: 125px;
   left: 15px;
