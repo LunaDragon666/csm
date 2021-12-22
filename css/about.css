@@ -32,10 +32,10 @@
 }
 
 hr {
-    border: 2px solid #1596ff;
-    border-radius: 1rem;
-    grid-area: hr;
-    margin-bottom: 6rem;
+  border: 2px solid #1596ff;
+  border-radius: 1rem;
+  grid-area: hr;
+  margin-bottom: 6rem;
 }
 
 .intro-description {
@@ -50,10 +50,10 @@ hr {
 } 
 
 .intro-summary {
-    font-size: 1.05rem;
-    grid-area: summary;
-    letter-spacing: 0.025rem;
-    margin-top: -4rem;
+  font-size: 1.05rem;
+  grid-area: summary;
+  letter-spacing: 0.025rem;
+  margin-top: -4rem;
 }
 
 .intro-title {
@@ -79,8 +79,6 @@ hr {
   object-position: center;
 }
 
-/* MORE CONTENT HERE */
-
 @media (max-width: 1280px) {
   .info_container {
     margin: 0 auto 0;
@@ -103,7 +101,7 @@ hr {
   }
   hr {
     margin-bottom: 5.5rem;
-}
+  }
 }
 
 @media (max-width: 900px) {
@@ -121,7 +119,7 @@ hr {
     margin-top: -2rem;
   }
 
-.intro-title, .intro-summary, .intro-description {
+  .intro-title, .intro-summary, .intro-description {
     padding: 0rem 2rem 3rem;
   }
 
