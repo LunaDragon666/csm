@@ -104,54 +104,15 @@ hr {
   }
 }
 
-@media (max-width: 900px) {
-  .intro-page {
-    grid-template-columns: min-content 1fr 1fr;
-    grid-template-areas:
-      "photo photo photo"
-      "author author author"
-      "hr hr hr"
-      "title title title"
-      "summary summary summary"
-      "description description description";
-    margin-bottom: 0;
-    margin-right: -0.47rem;
-    margin-top: -2rem;
-  }
-
-  .intro-title, .intro-summary, .intro-description {
-    padding: 0rem 2rem 3rem;
-  }
-
-  .intro-title {
-  margin-top: 1rem;
-  }
-
-  .intro-summary {
-      padding-bottom: 0.75rem;
-  }
-
-  .intro-description {
-      padding-bottom: 3rem;
-  }
-
-  hr {
-      margin-bottom: 4.5rem;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      margin-top: -2.5rem;
-  }
-}
-
 /* CONTENT SECTION */
-.info-wrapper {
+.content-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 3em auto 0;
 }
 
-.info-card {
+.content-card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   box-sizing: border-box;
   color: #475569;
@@ -162,19 +123,19 @@ hr {
   width: 400px;
 }
 
-.info-card i {
+.content-card i {
   color: #1596ff;
   font-size: 2rem;
   margin: 1.5rem 0 2rem;
 }
 
-.info-card h3 {
+.content-card h3 {
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 0;
 }
 
-.info-card p {
+.content-card p {
   font-size: 0.9rem;
   letter-spacing: 0.031rem;
   line-height: 1.5rem;
@@ -222,4 +183,43 @@ hr {
 .btn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media (max-width: 900px) {
+  .intro-page {
+    grid-template-columns: min-content 1fr 1fr;
+    grid-template-areas:
+      "photo photo photo"
+      "author author author"
+      "hr hr hr"
+      "title title title"
+      "summary summary summary"
+      "description description description";
+    margin-bottom: 0;
+    margin-right: -0.47rem;
+    margin-top: -2rem;
+  }
+
+  .intro-title, .intro-summary, .intro-description {
+    padding: 0rem 2rem 3rem;
+  }
+
+  .intro-title {
+  margin-top: 1rem;
+  }
+
+  .intro-summary {
+      padding-bottom: 0.75rem;
+  }
+
+  .intro-description {
+      padding-bottom: 3rem;
+  }
+
+  hr {
+      margin-bottom: 4.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: -2.5rem;
+  }
 }
