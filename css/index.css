@@ -261,14 +261,14 @@ hr {
 
 @media only screen and (max-width: 900px) {
   h2 {
-    font-size: 1.56rem;
+    font-size: 1.5rem;
   }
 .head {
   flex-direction: column;
   margin-top: 1rem;
 }
 .link {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   margin-top: 0.75rem;
 }
