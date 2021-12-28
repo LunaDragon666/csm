@@ -65,7 +65,7 @@ hr {
   grid-area: author;
   margin: 0;
   padding-left: 0.6rem;
-  padding-top: 1rem;
+  padding-top: 1.25rem;
 }
 
 .title, .subtitle, .summary, .description {
