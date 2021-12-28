@@ -111,7 +111,7 @@ hr {
 
 @media (max-width: 900px) {
   .workplace_container {
-    padding: 2rem 0 6rem;
+    padding: 1.5rem 0 6rem;
   }
   .content-cards {
     gap: 55px;
