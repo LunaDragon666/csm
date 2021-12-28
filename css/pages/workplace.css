@@ -124,6 +124,9 @@ hr {
     font-size: 1.3rem;
     letter-spacing: 0.05rem;
   }
+  .info-content h3 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (max-width: 600px) {
