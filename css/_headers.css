@@ -86,6 +86,12 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .content-header, .subheader {
+    min-height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .header-content {
     line-height: 1.5rem;
     top: 100px;
