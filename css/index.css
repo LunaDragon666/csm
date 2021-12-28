@@ -17,7 +17,7 @@ hr {
 }
 
 .link {
-  color: #475569;
+  color: #000a4a;
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 0.05rem;
@@ -97,13 +97,11 @@ hr {
     font-weight: 900;
     font-size: 16px;
     margin-bottom: 10px;
-    color: #444;
   }
 
   .blog-content p {
     font-size: 14px;
     line-height: 1.5;
-    color: #040720;
   }
 
   .event-date {
