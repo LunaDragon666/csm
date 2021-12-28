@@ -105,6 +105,6 @@
 
 @media only screen and (max-width: 600px) {
   .alt-header, .content-header, .header, .subheader {
-    min-height: 30vh;
+    min-height: 25vh;
   }
 }
