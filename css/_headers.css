@@ -89,7 +89,7 @@
 @media only screen and (max-width: 900px) {
   .alt-header, .content-header, .header, .subheader {
     margin-bottom: 2rem;
-    min-height: 50vh;
+    min-height: 75vh;
   }
   .header-content, .subheader-content {
     line-height: 1.5rem;
