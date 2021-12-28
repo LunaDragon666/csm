@@ -88,16 +88,13 @@
 
 @media only screen and (max-width: 900px) {
   .alt-header, .content-header, .header, .subheader {
-    min-height: 70vh;
+    margin-bottom: 2rem;
+    min-height: 60vh;
   }
   .header-content {
     line-height: 1.5rem;
     top: 100px;
     }
-    .subheader {
-    margin-bottom: 2rem;
-    min-height: 50vh;
-  }
   .heading {
     font-size: 1.7rem;
   }
