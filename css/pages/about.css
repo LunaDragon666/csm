@@ -5,7 +5,7 @@
 @import "../_headers.css";
 
 .info_container {
-  margin: 1.25rem auto 0;
+  margin: 2rem auto 0;
   max-width: 1280px;
   padding: 1.5rem 0 4.5rem;
 }
@@ -26,7 +26,7 @@
   padding-right: 0.75rem;
   margin-bottom: 0.75rem;
   overflow: hidden;
-  height: 425px;
+  height: 475px;
   padding-right: 0.5rem;
   margin: 1.5rem 0 4.5rem;
 }
