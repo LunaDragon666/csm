@@ -114,7 +114,7 @@ hr {
     padding: 1rem 0 7rem;
   }
   .content-cards {
-    gap: 55px;
+    gap: 75px;
   }
   .content-cards .work-content {
     width: 320px;
@@ -148,5 +148,8 @@ hr {
 @media (max-width: 768px) {
   .content-cards {
     grid-template-columns: 1fr;
+  }
+  .content-cards {
+    gap: 55px;
   }
 }
