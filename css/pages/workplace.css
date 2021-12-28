@@ -140,11 +140,12 @@ hr {
     height: 135px;
   }
   .content-cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .content-cards {
     grid-template-columns: 1fr;
   }
