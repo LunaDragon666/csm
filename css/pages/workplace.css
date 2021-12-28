@@ -127,7 +127,7 @@ hr {
   }
   .info-content b, .info-content p {
     font-size: 1.1rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.15rem;
   }
   .work-content:hover img {
     height: 135px;
