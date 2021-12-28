@@ -51,4 +51,7 @@
   .visit_container {
     margin: -0.25rem auto 0;
   }
+  .info-wrapper {
+    gap: 1rem;
+  }
 }
