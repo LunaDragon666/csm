@@ -261,7 +261,7 @@ hr {
 
 @media only screen and (max-width: 900px) {
   h2 {
-    font-size: 1.65rem;
+    font-size: 1.5rem;
   }
 .head {
   flex-direction: column;
