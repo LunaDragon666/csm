@@ -139,6 +139,9 @@ hr {
   .work-content:hover img {
     height: 135px;
   }
+  .content-cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
