@@ -277,6 +277,7 @@ hr {
 }
 /* GALLERY CONTENT */
 .gallery-page {
+  grid-gap: 3rem;
   grid-template-columns: auto;
   padding-right: 0; 
  }
