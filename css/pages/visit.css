@@ -46,11 +46,14 @@
   line-height: 1.5rem;
 }
 
+@media (max-width: 1024px) {
+  .info-wrapper {
+    gap: 1rem;
+  }
+}
+
 @media (max-width: 900px) {
   .visit_container {
     margin: -0.25rem auto 0;
-  }
-  .info-wrapper {
-    gap: 1rem;
   }
 }
