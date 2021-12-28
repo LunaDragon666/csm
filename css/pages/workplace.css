@@ -123,6 +123,7 @@ hr {
   .info-content h2 {
     font-size: 1.9rem;
     letter-spacing: 0.1rem;
+    margin-top: 1.5rem;
   }
   .info-content b, .info-content p {
     font-size: 1rem;
