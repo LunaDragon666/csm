@@ -98,7 +98,7 @@ hr {
   }
   .content-cards {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 40px;
   }
 }
 
