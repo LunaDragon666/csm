@@ -53,9 +53,6 @@
 
 /* Line decoration inside text content */
 hr {
-  background: #1596ff;
-  border: 1px solid #1596ff;
-  border-radius: 1rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
