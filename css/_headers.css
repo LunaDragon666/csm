@@ -85,12 +85,6 @@
       }
 }
 
-@media only screen and (max-width: 1024px) {
-  .content-header, .subheader {
-    min-height: 100vh;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .header-content {
     line-height: 1.5rem;
@@ -105,9 +99,9 @@
     margin-bottom: -1rem;
   }
   .subheading {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   .content-header, .subheader {
-    min-height: 25vh;
+    min-height: 35vh;
   }
 }
