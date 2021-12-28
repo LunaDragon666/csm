@@ -17,6 +17,7 @@
 }
 
 .hambar {
+    border-radius: 25px;
     display: block;
     width: 25px;
     height: 3px;
