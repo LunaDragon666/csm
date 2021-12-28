@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+b, p {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.4rem;
+}
+
+body {
+  color: #000a4a;
+  min-height: 100vh;
+}
+
 html {
   font-family: "Montserrat", 'sans-serif';
 }
@@ -17,17 +32,14 @@ html, body {
   width: 100%;
 }
 
-body {
-  color: #000a4a;
-  min-height: 100vh;
+hr {
+  background: #1596ff; 
+  border: 2px solid #1596ff;
+  border-radius: 1rem;
 }
 
 li {
     list-style: none;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* From exhibitions.css and about.css */
