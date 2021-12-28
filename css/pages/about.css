@@ -186,8 +186,8 @@ hr {
   }
   .content-wrapper {
     justify-content: space-evenly;
-    margin-bottom: -3rem;
-    margin-top: -2rem;
+    margin-bottom: -1.5rem;
+    margin-top: -1.5rem;
 }
   .content-card {
     margin: 0 0 3.25rem;
