@@ -256,7 +256,8 @@ hr {
   margin-top: 1rem;
 }
 .link {
-  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  margin-top: 1rem;
 }
 .blog_container, .gallery_container {
   margin-bottom: -5rem;
