@@ -46,6 +46,10 @@ button {
   width: 100%;
 }
 
+button:hover {
+  background-color: #040720;
+}
+
 hr {
   background: #1596ff; 
   border: 2px solid #1596ff;
@@ -56,9 +60,9 @@ li {
     list-style: none;
 }
 
+/* root: */
+
 /* From exhibitions.css and about.css */
 figure {
   margin: 0;
 }
-
-/* root: */
