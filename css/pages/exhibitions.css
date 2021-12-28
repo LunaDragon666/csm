@@ -14,7 +14,7 @@
 .exhibition-page {
   display: grid;
   grid-template-columns: 50% min-content 1fr max-content;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-areas:
     "photo author author author"
     "photo title title title"
@@ -30,7 +30,7 @@
   overflow: hidden;
   height: 525px;
   padding-right: 0.5rem;
-  margin: 1.5rem 0 2.5rem;
+  margin: -0.5rem 0 4.5rem;
 }
 
 hr {
