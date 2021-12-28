@@ -236,6 +236,7 @@ hr {
   }
   .blog_container {
     margin-top: 5rem;
+    padding-right: 0;
   }
 .blog-page {
   margin-bottom: 4rem;
