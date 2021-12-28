@@ -73,6 +73,10 @@ hr {
   display: none;
 }
 
+.info-content h2 {
+  letter-spacing: 0.1rem;
+}
+
 .info-text p, .info-text b {
   letter-spacing: 0.025rem;
 }
@@ -128,7 +132,6 @@ hr {
 }
   .info-content h2 {
     font-size: 1.9rem;
-    letter-spacing: 0.1rem;
     margin-top: 1.5rem;
   }
   .info-content b, .info-content p {
