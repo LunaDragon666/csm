@@ -1,5 +1,6 @@
 .header, .subheader, .content-header, .alt-header {
   color: white;
+  letter-spacing: 0.15rem;
   line-height: 3.5rem;
   position: relative;
 }
@@ -70,19 +71,19 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    /* HEADER */
-    .header-content {
-      line-height: 3.25rem;
-      }
-      .blog-page, .gallery-page {
-        padding: 1rem 0 0;
-      }
-      .button-wrap {
-        margin-top: 1.5rem;
-      }
-      .content-header, .subheader {
-        min-height: 65vh;
-      }
+/* HEADER */
+  .header-content {
+    line-height: 3.25rem;
+  }
+  .blog-page, .gallery-page {
+    padding: 1rem 0 0;
+  }
+  .button-wrap {
+     margin-top: 1.5rem;
+  }
+  .content-header, .subheader {
+    min-height: 65vh;
+  }
 }
 
 @media only screen and (max-width: 900px) {
