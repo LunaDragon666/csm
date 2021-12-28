@@ -86,12 +86,6 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .alt-header, .content-header, .header, .subheader {
-    min-height: 20vh;
-  }
-}
-
 @media only screen and (max-width: 900px) {
   .header-content {
     line-height: 1.5rem;
@@ -110,6 +104,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .alt-header, .content-header, .header, .subheader {
+    min-height: 45vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .alt-header, .content-header, .header, .subheader {
     min-height: 40vh;
   }
