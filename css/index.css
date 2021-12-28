@@ -233,7 +233,7 @@ hr {
 
 @media only screen and (max-width: 1280px) {
   .head {
-    padding-right: 1.4rem;
+    padding-right: 4rem;
   }
 .blog_container, .gallery_container {
   margin: 1rem auto 2rem;
