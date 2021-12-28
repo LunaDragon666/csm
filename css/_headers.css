@@ -37,6 +37,7 @@
     border-radius: 0.25rem;
     color: white;
     cursor: pointer;
+    font-weight: bold;
     letter-spacing: 0.1rem; 
     padding: 1rem 3rem;
     text-transform: uppercase;
