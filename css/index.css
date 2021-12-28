@@ -239,6 +239,7 @@ hr {
     padding-right: 0;
   }
 .blog-page {
+  gap: 3rem;
   margin-bottom: 4rem;
   }
 .card-blog {
