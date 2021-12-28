@@ -120,6 +120,9 @@ hr {
     width: 320px;
     height: 630px;
   }
+  .info-content {
+    padding: 0.75rem;
+}
   .info-content h2 {
     font-size: 1.9rem;
     letter-spacing: 0.1rem;
