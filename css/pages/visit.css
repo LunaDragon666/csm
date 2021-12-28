@@ -21,7 +21,6 @@
 .info-card {
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   box-sizing: border-box;
-  color: #475569;
   margin: 1.25rem;
   min-height: 200px;
   padding: 1.875rem;
@@ -36,13 +35,13 @@
 }
 
 .info-card h2 {
-  color: #000a4a;
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 0;
 }
 
 .info-card p {
+  color: #475569;
   letter-spacing: 0.031rem;
   line-height: 1.5rem;
 }
