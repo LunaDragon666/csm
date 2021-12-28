@@ -150,7 +150,7 @@ hr {
 
 @media (max-width: 768px) {
   .workplace_container {
-    padding: 1rem 0 9rem;
+    padding: 1rem 0 7rem;
   }
   .content-cards {
     grid-template-columns: 1fr;
