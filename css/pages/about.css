@@ -32,8 +32,6 @@
 }
 
 hr {
-  border: 2px solid #1596ff;
-  border-radius: 1rem;
   grid-area: hr;
   margin-bottom: 6rem;
 }
