@@ -110,10 +110,10 @@ hr {
 
 @media (max-width: 900px) {
   .workplace_container {
-    padding: 4rem 0 4rem;
+    padding: 3rem 0 4rem;
   }
   .content-cards {
-    gap: 50px;
+    gap: 60px;
   }
   .content-cards .work-content {
     width: 300px;
