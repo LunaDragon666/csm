@@ -103,6 +103,9 @@ hr {
 }
 
 @media (max-width: 1280px) {
+  .workplace_container {
+    padding: 5rem 0 9rem;
+  }
   .content-cards {
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
@@ -111,7 +114,7 @@ hr {
 
 @media (max-width: 1024px) {
   .workplace_container {
-    padding: 5rem 0 9rem;
+    padding: 1rem 0 9rem;
   }
   .content-cards .work-content {
     width: 320px;
@@ -143,9 +146,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .workplace_container {
-    padding: 1rem 0 7rem;
-  }
   .content-cards {
     grid-template-columns: 1fr;
   }
