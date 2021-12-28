@@ -87,20 +87,21 @@
 
 @media only screen and (max-width: 900px) {
   .header-content {
-    line-height: 2.5rem;
-      top: 100px;
+    line-height: 1.5rem;
+    top: 100px;
     }
     .subheader {
     margin-bottom: 2rem;
     min-height: 30vh;
   }
   .heading {
-    font-size: 1.47rem;
+    font-size: 1.7rem;
+    margin-bottom: -1rem;
   }
   .subheading {
     font-size: 1rem;
   }
   .content-header, .subheader {
-    min-height: 40vh;
+    min-height: 25vh;
   }
 }
