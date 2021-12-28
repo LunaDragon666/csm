@@ -107,9 +107,6 @@
   .subheading {
     font-size: 1.4rem;
   }
-  .content-header, .subheader {
-    min-height: 50vh;
-  }
 }
 
 @media only screen and (max-width: 768px) {
