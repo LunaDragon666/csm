@@ -200,6 +200,19 @@ hr {
   transition: all 0.3s ease-in-out 0s;
 }
 
+.gallery-content h3, .gallery-content p {
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+
+.gallery-content h3 {
+  font-size: 1.5rem;
+}
+
+.gallery-content p {
+  font-size: 1.15rem;
+}
+
 /* Where in gallery content's displayed on hover */
 .gallery-content, .gallery-details {
   text-align: center;
@@ -270,14 +283,4 @@ hr {
   margin-bottom: 9.5rem; 
   padding-right: 0; 
  }
- .gallery-content h3, .gallery-content p {
-  letter-spacing: 0.2rem;
-  line-height: 2rem;
-}
-.gallery-content h3 {
-  font-size: 1.5rem;
-}
-.gallery-content p {
-  font-size: 1.15rem;
-}
 }
