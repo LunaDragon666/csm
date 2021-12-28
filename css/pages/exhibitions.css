@@ -110,7 +110,7 @@ hr {
 
 @media (max-width: 900px) {
   .exhibition_container {
-        margin: -2rem auto 0;
+        margin: -4rem auto 0;
         padding: 3rem 2rem;
   }
   .exhibition-page {
@@ -147,7 +147,6 @@ hr {
   }
 
   hr {
-    border: 1px solid #1596ff;
     margin-bottom: 0;
     margin-left: 1rem;
   }
