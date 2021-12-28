@@ -111,14 +111,17 @@ hr {
 
 @media (max-width: 900px) {
   .workplace_container {
-    padding: 1rem 0 6rem;
+    padding: 3rem 0 7rem;
   }
   .content-cards {
     gap: 55px;
   }
   .content-cards .work-content {
     width: 320px;
-    height: 630px;
+    height: 580px;
+  }
+  hr {
+    margin-bottom: 1.5rem;
   }
   .info-content {
     padding: 0.75rem;
@@ -129,7 +132,7 @@ hr {
     margin-top: 1.5rem;
   }
   .info-content b, .info-content p {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     letter-spacing: 0.1rem;
     line-height: 1.4rem;
   }
