@@ -40,6 +40,10 @@ hr {
   padding: 1.25rem 4.75rem 0;
 }
 
+.blog-container h2, .gallery_container h2 {
+  font-size: 2rem;
+}
+
 /* BLOG CONTENT | HOMEPAGE */
 .blog_container {
   margin-top: 2.5rem;
