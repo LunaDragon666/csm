@@ -121,10 +121,6 @@ hr {
   margin-top: 2.5rem;
 }
 
-.btn:hover {
-  background: #040720;
-}
-
 .btn span {
   cursor: pointer;
   display: inline-block;
