@@ -137,7 +137,7 @@ hr {
   }
   .content-cards {
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
   }
 }
 
