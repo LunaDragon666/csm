@@ -124,8 +124,9 @@ hr {
     font-size: 1.9rem;
     letter-spacing: 0.1rem;
   }
-  .info-content h3 {
-    font-size: 1.5rem;
+  .info-content b, .info-content p {
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
   }
 }
 
