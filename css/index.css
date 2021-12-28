@@ -98,12 +98,12 @@ hr {
 }
 
 .blog-content p {
-  font-size: 14px;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .event-date {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.05rem;
 }
 
 /* CTA button | Homepage */
