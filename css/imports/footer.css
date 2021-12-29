@@ -2,63 +2,63 @@ footer {
   padding: 2.5rem;
 }
 
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
 footer, .copyright {
-  background: #001cd4;
-  color: white;
+  background: var(--secondary-color);
+  color: var(--background-color);
   text-align: center;
 }
 
 .copyright {
-padding: 1.75rem;
-}
-
-footer h5 {
-font-size: 1.2rem;
-margin-bottom: 1.5rem;
+  padding: 1.75rem;
 }
 
 /* Back-to-top */
 .top {
-text-align: center;
-padding: 0.5rem 0 1.5rem;
+  padding: 0.5rem 0 1.5rem;
+  text-align: center;
 }
 
 .topmenu i {
-color: white;
-font-size: 2.5rem;
-transition: all 0.5s;
+  color: var(--background-color);
+  font-size: 2.5rem;
+  transition: all 0.5s;
 }
 
 .topmenu i:hover {
-transform: translateY(-1rem);
+  transform: translateY(-1rem);
 }
 
 /* Footer column */
 .footer:after {
-content: "";
-display: table;
-clear: both;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .footer-column {
-font-size: 0.91em;
-float: left;
-width: 25%;
-padding: 2.5em;
-min-height: 30vh; /* Should be removed. Only for demonstration */
-letter-spacing: 0.1em;
-line-height: 2.5em;
-text-align: left;
+  float: left;
+  font-size: 0.91em;
+  letter-spacing: 0.1em;
+  line-height: 2.5em;
+  min-height: 30vh;
+  padding: 2.5em;
+  text-align: left;
+  width: 25%;
 }
 
 /* Opening hours */
 table {
-border-collapse: collapse;
-width: 100%;
+  border-collapse: collapse;
+  width: var(--default-width);
 }
 
 td, th {
-text-align: left;
+  text-align: left;
 }
 
 .bold {
@@ -77,16 +77,16 @@ text-align: left;
 
 /* Navigation | Menu*/
 .footer-link {
-cursor: pointer;
-font-size: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 .footer-link:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footera {
-  color: white;
+  color: var(--background-color);
   font-size: 1rem;
 }
 
@@ -107,32 +107,31 @@ text-decoration: underline;
 }
 
 .medialinks i {
-padding-right: 0.5rem;
-transition: 0.25s;
+  padding-right: 0.5rem;
+  transition: 0.25s;
 }
 
 .medialinks i:hover {
-color: #040720;
-cursor: pointer;
+  color: var(--darken-background);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1280px) {
-  .footer-column, td, th {
-    text-align: center;
-  }
-  .footer-column {
-    width: 33%;
-  }
+.footer-column, td, th {
+  text-align: center;
+ }
+.footer-column {
+  width: 33%;
+ }
 }
-
 @media only screen and (max-width: 900px) {
-    .footer-column {
-    font-size: 1.25em;
-    line-height: 2.5em;
-    padding: 1.5rem 0 1rem;
-    width: 100%;
-  }
-  table {
-    font-size: 0.9rem;
-  }
+.footer-column {
+  font-size: 1.25em;
+  line-height: 2.5em;
+  padding: 1.5rem 0 1rem;
+  width: var(--default-width);
+ }
+table {
+  font-size: 0.9rem;
+ }
 }
