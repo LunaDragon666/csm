@@ -11,9 +11,6 @@
 
 /* INTRODUCTION SECTION */
 .intro-page {
-  background: var(--background-color);
-  display: grid;
-  grid-template-columns: 50% min-content 1fr max-content;
   grid-gap: 0.75rem;
   grid-template-areas:
     "photo heading heading heading"
@@ -23,11 +20,7 @@
     "photo . description description"
     "photo . . .";
   height: 475px;
-  margin-bottom: 0.75rem;
   margin: 1.5rem 0 4.5rem;
-  overflow: hidden;
-  padding-right: 0.75rem;
-  padding-right: 0.5rem;
 }
 
 hr {
@@ -182,7 +175,6 @@ hr {
 
 @media (max-width: 900px) {
 .intro-page {
-  grid-template-columns: min-content 1fr 1fr;
   grid-template-areas:
     "photo photo photo"
     "heading heading heading"
@@ -191,7 +183,7 @@ hr {
     "summary summary summary"
     "description description description";
   margin-bottom: 2rem;
-  margin-right: -0.47rem;
+  margin-right: -0.75rem;
   margin-top: -2rem;
 }
 .intro-title, .intro-summary, .intro-description {
