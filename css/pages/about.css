@@ -29,6 +29,7 @@ hr {
 }
 
 .intro-description {
+  color: var(--paragraph-color);
   grid-area: description;
   line-height: var(--default-wordline);
   margin-top: 0.25rem;
