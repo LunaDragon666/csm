@@ -1,8 +1,7 @@
 @import "../imports/variables.css";
 @import "../imports/nav.css";
+@import "../imports/headers.css";
 @import "../imports/footer.css";
-
-@import "../_headers.css";
 
 .info_container {
   margin: 3rem auto 0;
