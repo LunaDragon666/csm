@@ -13,7 +13,7 @@ The origin of the logo has been redesigned, taken from one of the vector images 
 ### Pages
 Last folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### Visit.html
-Information about what you can find when we visit the museum and other practical information to think about before visiting the museum. 
+Information about what you can find when we visit the museum and other practical information to think about before visiting Community Science Museum. 
 #### Exhibitions.html
 Overview of all permanent exhibitions the museum has and arranges, where themes are placed in alphabetical order. If we click on one of the "exhibition themes" from the homepage, we'll be sent to this subpage. 
 #### About.html
