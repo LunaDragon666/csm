@@ -77,6 +77,21 @@ li {
 }
 
 /* From exhibitions.css and about.css */
+.exhibition-page, .intro-page {
+  background: var(--background-color);
+  display: grid;
+  grid-template-columns: 50% min-content 1fr max-content;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 figure {
   margin: var(--clear-space);
+}
+
+@media (max-width: 900px)  {
+  .exhibition-page, .intro-page {
+    grid-template-columns: min-content 1fr 1fr;
+  }
 }
