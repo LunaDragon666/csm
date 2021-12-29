@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 3.75rem;
 }
 
 .nav-item {
@@ -42,9 +43,10 @@
     font-size: 1.25rem;
     font-weight: 400;
     color: #000a4a;
+    letter-spacing: 0.1rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     text-decoration: underline #1596ff;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.2em;
@@ -53,6 +55,7 @@
 .nav-link.active {
     background: #1596ff;
     color: white;
+    font-weight: bold;
     padding: 2.1rem 1.4rem;
 }
 
@@ -72,6 +75,7 @@
         transition: 0.3s;
         z-index: 1;
         padding: 2.5rem 0 4rem;
+        margin-right: 0;
     }
     .nav-menu.active {
         right: 0;
@@ -94,7 +98,7 @@
         margin-right: 0.5rem;
     }
     
-    /* */
+    /* Hamburger menu closer | opener */
     .hamburger-menu.active .hambar:nth-child(2) {
         opacity: 0;
     }
