@@ -20,7 +20,8 @@
   justify-content: space-evenly;
   position: relative;
 }
-  
+
+/* Workplace "cards" */
 .content-cards .work-content {
   background-color: var(--background-color);
   border-radius: 1rem;
@@ -73,13 +74,14 @@ hr {
 }
 
 .info-text p {
+  color: var(--paragraph-color);
   padding-right: 0.75rem;
   padding-top: 0.75rem;
 }
   
 /* Content hover-effect(s) */
 .work-content:hover .info-content {
-  color: var(--paragraph-color);
+  color: var(--text-color);
   height: 600px;
   left: 0.938rem;
   top: 7.813rem;
