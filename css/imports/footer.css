@@ -68,7 +68,7 @@ text-align: left;
 /* Contact information */
 .adress-box {
   margin-top: 2rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 3rem;
 }
 
 .adress-box p {
@@ -121,7 +121,7 @@ cursor: pointer;
     text-align: center;
   }
   .footer-column {
-    width: 33%;
+    width: 50%;
   }
 }
 
