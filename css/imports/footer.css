@@ -71,6 +71,10 @@ text-align: left;
   margin-bottom: 1.75rem;
 }
 
+.adress-box p {
+  margin-bottom: 1rem;
+}
+
 /* Navigation | Menu*/
 .footer-link {
 cursor: pointer;
