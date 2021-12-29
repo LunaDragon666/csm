@@ -63,53 +63,55 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .nav-menu {
-        position: absolute;
-        right: -100%;
-        top: 5.5rem;
-        flex-direction: column;
-        background-color: #001cd4;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        z-index: 1;
-        padding: 2.5rem 0 4rem;
-    }
-    .nav-menu.active {
-        right: 0;
-    }
-    .nav-item {
-        margin: 1.2rem 0;
-    }
-    .nav-link {
-        color: white;
-    }
-    .nav-link.active {
-        background: none;
-        text-decoration: underline;
-        text-decoration-thickness: 0.05em;
-        text-underline-offset: 0.25em;
-    }
-    .hamburger-menu {
-        display: block;
-        cursor: pointer;
-        margin-right: 0.5rem;
-    }
+.navbar {
+    padding: 1rem 1.25rem;
+}
+.nav-menu {
+    position: absolute;
+    right: -100%;
+    top: 5.5rem;
+    flex-direction: column;
+    background-color: #001cd4;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+    padding: 2.5rem 0 4rem;
+}
+.nav-menu.active {
+    right: 0;
+}
+.nav-item {
+    margin: 1.2rem 0;
+}.nav-link {
+    color: white;
+}
+.nav-link.active {
+    background: none;
+    text-decoration: underline;
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 0.25em;
+}
+.hamburger-menu {
+    display: block;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
     
-    /* Hamburger menu closer | opener */
-    .hamburger-menu.active .hambar:nth-child(2) {
-        opacity: 0;
-    }
-    .hamburger-menu.active .hambar:nth-child(1) {
-        transform: translateY(10px) rotate(45deg);
-    }
-    .hamburger-menu.active .hambar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
+/* Hamburger menu closer | opener */
+.hamburger-menu.active .hambar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger-menu.active .hambar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+.hamburger-menu.active .hambar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+   }
 }
 
 @media only screen and (max-width: 900px) {
-    .nav-menu {
-        top: 5.5rem;
-    }
+.nav-menu {
+    top: 5.5rem;
+   }
 }
