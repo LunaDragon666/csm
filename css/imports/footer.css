@@ -92,18 +92,22 @@ text-decoration: underline;
   text-decoration: underline;
 }
 
-/* Social media & subscribe field */
-
-.medialinks {font-size: 1.4rem;}
+/* Social media field */
+.medialinks {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  gap: 1.45rem;
+}
 
 .medialinks i {
-cursor: pointer;
 padding-right: 0.5rem;
 transition: 0.25s;
 }
 
 .medialinks i:hover {
-color: black;
+color: #040720;
+cursor: pointer;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -125,44 +129,4 @@ color: black;
   table {
     font-size: 0.9rem;
   }
-}
-
-.subinput, .subbtn {
-  border: none;
-  font-family: "Montserrat", 'sans-serif';
-  letter-spacing: 0.1rem;
-  padding: 0.5rem;
-}
-
-.subinput {
-  background: white;
-  border-radius: 0.25rem 0rem 0rem 0.25rem;
-  margin-right: 0.5rem;
-  width: 40%;
-}
-
-.subbtn {
-background: #1596ff;
-border-radius: 0rem 0.25rem 0.25rem 0rem;
-color: white;
-cursor: pointer;
-margin-left: -1rem;
-padding: 0.5rem 1rem;
-}
-
-.sub-field {
-  margin-top: 1.5rem;
-}
-
-.sub-field p {
-  font-size: 0.9rem;
-  margin-bottom: 0.75rem;
-}
-
-.adress-box p {
-    margin-bottom: 0.75rem;
-}
-
-#subError {
-  display: none;
 }
