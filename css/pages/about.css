@@ -5,9 +5,9 @@
 @import "../_headers.css";
 
 .info_container {
-  margin: 2rem auto 0;
+  margin: 3rem auto 0;
   max-width: 1280px;
-  padding: 1.5rem 0 4.5rem;
+  padding: 1.5rem 0 8.5rem;
 }
 
 /* INTRODUCTION SECTION */
