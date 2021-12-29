@@ -11,6 +11,7 @@
 
 /* INTRODUCTION SECTION */
 .intro-page {
+  background: var(--background-color);
   display: grid;
   grid-template-columns: 50% min-content 1fr max-content;
   grid-gap: 0.75rem;
@@ -21,13 +22,12 @@
     "photo . summary summary"
     "photo . description description"
     "photo . . .";
-  background: var(--background-color);
-  padding-right: 0.75rem;
-  margin-bottom: 0.75rem;
-  overflow: hidden;
   height: 475px;
-  padding-right: 0.5rem;
+  margin-bottom: 0.75rem;
   margin: 1.5rem 0 4.5rem;
+  overflow: hidden;
+  padding-right: 0.75rem;
+  padding-right: 0.5rem;
 }
 
 hr {
@@ -55,26 +55,26 @@ hr {
 }
 
 .intro-title {
-  grid-area: title;
   font-size: 2rem;
+  grid-area: title;
   grid-area: heading;
-  margin-top: 0;
+  margin-top: var(--clear-space);
   padding-left: 0.6rem;
 }
 
 /* Intro image */
 .intro-image {
-  width: var(--default-width);
   height: var(--default-width);
   margin-bottom: 0.85em;
   overflow: hidden;
+  width: var(--default-width);
 }
   
 .intro-image img {
-  width: var(--default-width);
   height: var(--default-width);
   object-fit: cover;
   object-position: center;
+  width: var(--default-width);
 }
 
 /* CONTENT SECTION */
@@ -129,10 +129,10 @@ hr {
 
 .btn span:after {
   content: '\00bb';
+  opacity: var(--clear-space);
   position: absolute;
-  opacity: 0;
-  top: 0;
   right: -1.25rem;
+  top: var(--clear-space);
   transition: 0.5s;
 }
 
@@ -142,7 +142,7 @@ hr {
 
 .btn:hover span:after {
   opacity: 1;
-  right: 0;
+  right: var(--clear-space);
 }
 
 @media (max-width: 1280px) {
@@ -153,7 +153,7 @@ hr {
 .intro-page {
   height: auto;
   margin-right: 2rem;
-  margin-top: 0;
+  margin-top: var(--clear-space);
  }
 .intro-title {
   font-size: 1.6rem;
@@ -198,7 +198,7 @@ hr {
   padding: 0rem 2rem 3rem;
 }
 .intro-title {
-margin-top: 1rem;
+  margin-top: 1rem;
 }
 .intro-summary {
   padding-bottom: 0.75rem;
@@ -218,5 +218,5 @@ hr {
 .content-card {
   margin-bottom: 4rem;
   width: 300px;
-  }
+ }
 }
