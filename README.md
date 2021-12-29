@@ -5,7 +5,7 @@ There's some comprehensive descriptions of the folders and files for the website
 I tried to put all media queries in one and the same css file, but think some of the "data" that belonged to the index page was overwritten, and therefore did not work for me. Therefore I couldn't test out properly for myself the benefits to gather all media queries in one and the same file, based on the time and knowlegde I had left.
 However, in this project I think it was easier for me to have my own media queries for each subpage located at the very bottom of their css files, because I experienced that in this way I had a better overview of each simple media query in relation to where on the page they are located - since I can easily get "lost" or in some cases "loose track" in coding.
 ### CSS
-Here we find all css files that belongs to the html files with the same name as those css-files, which are located inside the pages-folder. While the "main" CSS-file, style.css, are located together with the index.html-file, to distinguish for myself between these main files and the "subfiles" located in the pages- and css folder while I coded this website, in order to be able to modify and customize the styling of each individual html file when needed.
+In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of
 ### Pages
 This folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### Visit.html
