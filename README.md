@@ -15,7 +15,7 @@ Last folder contains all subpages of the website in html files that have their o
 #### Visit.html
 Information about what you can find when we visit the museum and other practical information to think about before visiting the museum. 
 #### Exhibitions.html
-Overview of all permanent exhibitions the museum has and arranges, where themes are placed in alphabetical order.
+Overview of all permanent exhibitions the museum has and arranges, where themes are placed in alphabetical order. If we click on one of the "exhibition themes" from the homepage, we'll be sent to this subpage. 
 #### About.html
 An about-page for Community Science Museum that presents offers and services they have to offer to us users. What they can provide to us users is informed (mainly for children, teachers- and researchers). 
 #### Workplace.html
