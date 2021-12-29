@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 5.25rem;
     z-index: 999;
 }
 
@@ -32,7 +32,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 3.75rem;
 }
 
 .nav-item {
@@ -75,7 +74,6 @@
         transition: 0.3s;
         z-index: 1;
         padding: 2.5rem 0 4rem;
-        margin-right: 0;
     }
     .nav-menu.active {
         right: 0;
