@@ -16,7 +16,7 @@ hr {
 }
 
 .link {
-  color: #000a4a;
+  color: var(--text-color);
   cursor: pointer;
   font-weight: bold;
   letter-spacing: 0.05rem;
@@ -26,12 +26,12 @@ hr {
 }
 
 .link:hover {
-  color: #1596ff; 
+  color: var(--primary-color); 
   letter-spacing: 0.25rem;
 }
 
 #arrow-click {
-  color: #1596ff; 
+  color: var(--primary-color); 
   padding-left: 0.5rem;
 }
 
@@ -62,14 +62,14 @@ hr {
 }
 
 .inner-card  {
-  background-color: #fff;
+  background-color: var(--background-color);
   border-radius: 0.25rem;
   box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
 }
 
 /* Blog images */
 .blog-image {
-  width: 100%;
+  width: var(--default-width);
   height: 350px;
   margin-bottom: 0.85em;
   overflow: hidden;
@@ -77,8 +77,8 @@ hr {
 
 .blog-image img {
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  width: var(--default-width);
+  height: var(--default-width);
   object-fit: cover;
   object-position: center;
   transition: 0.5s all ease-in-out;
@@ -90,19 +90,19 @@ hr {
 
 /* Blog content */
 .blog-content {
-  padding: 0 15px;
+  padding: 0 0.938rem;
 }
   
 .blog-content h3 {
   font-weight: 900;
   font-size: 1.35rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .blog-content p {
   font-size: 1.05rem;
-  line-height: 1.5;
+  line-height: var(--default-wordline);
 }
 
 .event-date {
@@ -124,20 +124,20 @@ hr {
 
 .read-btn span:after {
   content: '\00bb';
+  opacity: var(--clear-space);
   position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
+  right: -1.25rem;
+  top: var(--clear-space);
   transition: 0.5s;
 }
 
 .read-btn:hover span {
-  padding-right: 25px;
+  padding-right: 1.563rem;
 }
   
 .read-btn:hover span:after {
   opacity: 1;
-  right: 0;
+  right: var(--clear-space);
 }
 
 /* GALLERY SECTION | HOMEPAGE */
@@ -155,8 +155,8 @@ hr {
 
 /* Galery image(s) */
 .gallery-image {
-  width: 100%;
-  height: 100%;
+  height: var(--default-width);
+  width: var(--default-width);
 }
 
 .gallery-image,
@@ -172,13 +172,13 @@ hr {
 
 .gallery-content .gallery-overlay {
   background: rgba(17, 8, 99, 0.7);
-  height: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  padding: 0;
+  bottom: var(--clear-space);
+  height: var(--default-width);
+  left: var(--clear-space);
+  opacity: var(--clear-space);
+  right: var(--clear-space);
+  padding: var(--clear-space);
+  top: var(--clear-space);
   -moz-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
@@ -188,19 +188,19 @@ hr {
 }
 
 .gallery-details {
-  color: white;
-  letter-spacing: 0.1rem;
-  line-height: 1.5rem;
-  padding: 0;
-  width: 75%;
+  color: var(--background-color);
   left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
+  letter-spacing: 0.1rem;
+  line-height: var(--default-wordline);
+  opacity: var(--clear-space);
+  padding: var(--clear-space);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  width: 75%;
 }
 
 .gallery-content h3, .gallery-content p {
@@ -222,9 +222,9 @@ hr {
 }
 
 .gallery-content:hover .gallery-details {
-  top: 50%;
   left: 50%;
   opacity: 1;
+  top: 50%;
 }
 
 .fadein {
@@ -232,46 +232,45 @@ hr {
 }
 
 @media only screen and (max-width: 1280px) {
-  .link {
-      margin-right: -1.4rem;
-  }
+.link {
+  margin-right: -1.4rem;
+ }
 .blog_container, .gallery_container {
   margin: 1rem auto 2rem;
   max-width: 910px;
-  }
-  .blog_container {
-    margin-top: 5rem;
-  }
+ }
+.blog_container {
+  margin-top: 5rem;
+ }
 .blog-page {
   gap: 2rem;
   margin-bottom: 4rem;
-  }
+ }
 .card-blog {
   max-width: 356px;
-  padding-right: 0;
-  }
+  padding-right: var(--clear-space);
+ }
 /* GALLERY CONTENT */
 .gallery-page {
   grid-gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 10rem;
-  padding-right: 0;
-  }
+  padding-right: var(--clear-space);
+ }
 }
-
 @media only screen and (max-width: 900px) {
-  h2 {
-    font-size: 1.5rem;
-  }
+h2 {
+  font-size: 1.5rem;
+ }
 .head {
   flex-direction: column;
   margin-top: 1rem;
-}
+ }
 .link {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   margin-top: 0.75rem;
-}
+  }
 .blog_container, .gallery_container {
   margin-bottom: -5rem;
   margin-top: -3.5rem;
@@ -280,15 +279,15 @@ hr {
 .blog-page {
   gap: 1rem;
   margin: 1rem 0;
-}
+ }
 .blog-image {
   height: 300px;
-}
+ }
 .card-blog {
-  max-width: 100%;
+  max-width: var(--default-width);
   padding-bottom: 1.75rem;
-  padding-right: 0;
-}
+  padding-right: var(--clear-space);
+ }
 /* GALLERY CONTENT */
 .gallery-page {
   grid-gap: 3rem;
