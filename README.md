@@ -14,11 +14,9 @@ The origin of the logo has been redesigned, taken from one of the vector images 
 Last folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### Exhibitions.html
 Overview of all permanent exhibitions the museum has and arranges, where themes are placed in alphabetical order.
-#### Workplace.html
-A subpage that informs about the "career opportunities" that exist at the Community Science Museum, in addition to the idea of being able to make a donation to the museum.
 #### About.html
-An about-page for Community Science Museum that presents offers and services they have to offer to us users. What they can provide to us users is informed in two-devided sections; activities for children and adults. 
+An about-page for Community Science Museum that presents offers and services they have to offer to us users. What they can provide to us users is informed in two-devided sections; activities for children and adults.
+#### Workplace.html
+A subpage that informs about the "career opportunities" that exist at the Community Science Museum, in addition to the idea of being able to make a donation to the museum. 
 #### Contact.html
-This page leads directly to the contact form.
-## Relfection note
-I didn't manage to create visit.html/css subpages and design a fully developed footer section for this project, which was basically what I had planned to do.
+This page leads directly to the contact form, where form validation are added. CSS Grid are used in this case to build the way form looks, that also could be done with flexbox. 
