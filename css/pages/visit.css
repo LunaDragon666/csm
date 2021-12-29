@@ -47,10 +47,10 @@
 }
 
 @media (max-width: 1024px) {
-  .visit_container {
-    margin: -0.25rem auto -4.75rem;
+.visit_container {
+  margin: -0.25rem auto -4.75rem;
   }
-  .info-wrapper {
-    gap: 1rem;
+.info-wrapper {
+  gap: 1rem;
   }
 }
