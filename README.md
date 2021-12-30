@@ -4,6 +4,10 @@
 ...
 ### css
 In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``featured`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler for me to track when needed.
+### images 
+...
+### js
+This time I have not used very many lines with JavaScript code or used many files for them, but both codes for form validation inside the subfolder ``components`` and the hamburger menu are located there in the main js-file ``script.js``. 
 ### pages
 This folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### visit.html
