@@ -7,7 +7,7 @@ In this case I have arranged the CSS files somewhat differently than what I have
 ### images 
 ...
 ### js
-This time I have not used very many lines with JavaScript code or used many files for them, but both codes for form validation inside the subfolder ``components`` and the hamburger menu are located there in the main js-file ``script.js``. Since there has been little use for js on this site in this version of the website, I also chose not to use the module (import/export of files there) or saw the need to do so. 
+This time I have not used very many lines with JavaScript code or used many files for them, but both codes for form validation inside the subfolder ``components`` and the hamburger menu are located there in the main js-file ``script.js``. Since there has been little use for js on this site in this version of the website, I also chose not to use the module (import/export of files there) or saw the need to do so. For information, I also have the hotjar code for user testing part of this project 
 ### pages
 This folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### visit.html
