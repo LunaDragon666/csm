@@ -1,5 +1,5 @@
 # Community Science Museum
-Inside the portfolio I sometimes mentions changes I have made from the XD prototypes, which are referenced to the prototype links to both [desktop version](https://xd.adobe.com/view/ac3d295e-d8b4-41bb-9c9f-d735fa941822-f96e/?fullscreen&hints=off) and [mobile version](https://xd.adobe.com/view/39849f08-141b-4634-b13a-dfd8d449d1b4-6cd7/?fullscreen&hints=off).   
+Inside the portfolio I sometimes mentions changes I have made from the XD prototypes, which are referenced to the prototype links to both [desktop-](https://xd.adobe.com/view/ac3d295e-d8b4-41bb-9c9f-d735fa941822-f96e/?fullscreen&hints=off) and [mobile version](https://xd.adobe.com/view/39849f08-141b-4634-b13a-dfd8d449d1b4-6cd7/?fullscreen&hints=off).   
 ## Website's folders 
 I have tried to the best of my ability to keep using the dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website.
 ### css
