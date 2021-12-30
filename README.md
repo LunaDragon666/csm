@@ -5,7 +5,7 @@ I have tried to the best of my ability to keep using the dry-principle where it 
 ### css
 In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``featured`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler for me to track when needed.
 ### images 
-...
+The way the image folders and files are located does not differ too much from the previous structure, only that both the mockup picture (from Freepik) of the logo from ``about.html`` and the logo file are located under the same subfolder called ``featured``. 
 ### js
 This time I have not used very many lines with JavaScript code or used many files for them, but both codes for form validation inside the subfolder ``components`` and the hamburger menu are located there in the main js-file ``script.js``. Since there has been little use for js on this site in this version of the website, I also chose not to use the module (import/export of files there) or saw the need to do so. For information, I also have the hotjar code for user testing part of this project, since I'm planning to launch this site after this Portfolio 1 delivery is fully assessed and the usertesting's complete for future employers/costumers.  
 ### pages
