@@ -95,3 +95,8 @@ figure {
     grid-template-columns: min-content 1fr 1fr;
   }
 }
+
+/* Hotjar */
+i._hj-CoyQX__styles__iconX._hj-3e6MN__styles__icon {
+  margin-top: 0.1rem;
+}
