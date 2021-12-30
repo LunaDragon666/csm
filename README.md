@@ -1,7 +1,7 @@
 # Community Science Museum
 Inside the portfolio I sometimes mentions changes I have made from the XD prototypes, which are referenced to the prototype links to both [desktop-](https://xd.adobe.com/view/ac3d295e-d8b4-41bb-9c9f-d735fa941822-f96e/?fullscreen&hints=off) and [mobile version](https://xd.adobe.com/view/39849f08-141b-4634-b13a-dfd8d449d1b4-6cd7/?fullscreen&hints=off).   
 ## Website's folders 
-I have tried to the best of my ability to keep using the dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website.
+I have tried to the best of my ability to keep using the dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website. Although I have tried to make changes to improve the user experience first, I need to perform user tests and get feedback on what I have done so far to identify what works and what should be changed to improve the user experience even more in the nearest future before official launch in my future portfolio.
 ### css
 In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``imports`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler to track when needed.
 ### images 
