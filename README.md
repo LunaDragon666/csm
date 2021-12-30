@@ -1,7 +1,7 @@
 # Community Science Museum
 ...
 ## Website's folders 
-I have tried to the best of my ability to use dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website.
+I have tried to the best of my ability to keep using the dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website.
 ### css
 In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``featured`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler for me to track when needed.
 ### images 
