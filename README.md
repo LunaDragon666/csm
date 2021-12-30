@@ -1,9 +1,13 @@
 # Community Science Museum
-...
+Inside the portfolio I sometimes mentions changes I have made from the XD prototypes, which are referenced to the prototype links to both [desktop-](https://xd.adobe.com/view/ac3d295e-d8b4-41bb-9c9f-d735fa941822-f96e/?fullscreen&hints=off) and [mobile version](https://xd.adobe.com/view/39849f08-141b-4634-b13a-dfd8d449d1b4-6cd7/?fullscreen&hints=off).   
 ## Website's folders 
-...
+I have tried to the best of my ability to keep using the dry-principle where it was possible for me, but in this case U may have missed that some places in the code during the redesign of the website.
 ### css
-In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``featured`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler for me to track when needed.
+In this case I have arranged the CSS files somewhat differently than what I have done before. Now all html pages have their own css files under the same name and their own media queries for them, with the exception of items that are repeated across the site that are ``@imported`` from the subfolder ``imports`` (variables.css, nav.css, headers.css and footer.css) to split the code into smaller, more manageable code pieces to make it simpler to track when needed.
+### images 
+The way the image folders and files are located does not differ too much from the previous structure, only that both the mockup picture (from Freepik) of the logo from ``about.html`` and the logo file are located under the same subfolder called ``featured``. 
+### js
+This time I have not used very many lines with JavaScript code or used many files for them, but both codes for form validation inside the subfolder ``components`` and the hamburger menu are located there in the main js-file ``script.js``. Since there has been little use for js on this site in this version of the website, I also chose not to use the module (import/export of files there) or saw the need to do so. For information, I also have the hotjar code for user testing part of this project, since I'm planning to launch this site after this Portfolio 1 delivery is fully assessed and the usertesting's complete for future employers/costumers.  
 ### pages
 This folder contains all subpages of the website in html files that have their own css files (found in the css folder), which belongs to the main navigation field of the main page. The subpages that accompanies the main page consists of the following:
 #### visit.html
